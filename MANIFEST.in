@@ -1,0 +1,2 @@
+graft eventlist/templates
+graft eventlist/static

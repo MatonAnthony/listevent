@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Liste des événements : </h1>
+<pre>
+{% for event in events %}
+{{ event.__str__() }}
+{% endfor %}
+</pre>
+{% endblock %}
